@@ -1,0 +1,159 @@
+
+<html lang="ko">
+    <head>
+      <title>createtest</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="jumbotron text-center">
+        <h3>1-createtest</h3>
+      </div>
+      <div class="container">
+        <h2 align="center">{{userid}}님의 호스팅 생성</h2>
+        <form class="form-horizontal" method="POST" action="/create">
+          <div class="col-md-9">
+            <div class="form-group">
+              <label class="control-label col-md-6" for="id">호스팅 이름</label>
+              <input type="text" class="form-control" id="name" placeholder="호스팅 이름" name="name">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label class="control-label col-md-6" for="spec">호스팅 사양 선택</label>
+              <select class="form-control" id="spec" name="spec">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="control-label col-md-6" for="vm_password">호스팅 비밀번호</label>
+              <input type="password" class="form-control" id="vm_password" placeholder="호스팅 비밀번호(영문+숫자+특수문자 포함 10자리이상)" name="vm_password">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="control-label col-md-6" for="vm_password_re">호스팅 비밀번호 확인</label>
+              <input type="password" class="form-control" id="vm_password_re" placeholder="호스팅 비밀번호 확인" name="vm_password_re">
+            </div>
+          </div>
+          <br>
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>자동 연장</label><p>   *자동연장시 매월 결제일 00:00 에 자동으로 포인트가 차감되며 호스팅이 연장 됩니다.</p>
+              <div class="radio">
+                <label for="true"><input type="radio" id="true" name="auto_extend" value="1" checked>활성화</label>
+              </div>
+              <div class="radio">
+                <label for="false"><input type="radio" id="false" name="auto_extend" value="0">비활성화</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="form-group">
+              <p align="right">
+                <button type="submit" class="btn btn-default">호스팅 생성</button>
+              </p>
+            </div>
+          </div>
+        </form>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>호스팅 사양 번호</th>
+              <th>CPU</th>
+              <th>메모리</th>
+              <th>SSD</th>
+              <th>트래픽</th>
+              <th>가격</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2 코어</td>
+              <td>2 기가</td>
+              <td>50 기가</td>
+              <td>무제한</td>
+              <td>1 만point</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2 코어</td>
+              <td>4 기가</td>
+              <td>50 기가</td>
+              <td>무제한</td>
+              <td>2 만point</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>4 코어</td>
+              <td>6 기가</td>
+              <td>50 기가</td>
+              <td>무제한</td>
+              <td>3 만point</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>4 코어</td>
+              <td>8 기가</td>
+              <td>100 기가</td>
+              <td>무제한</td>
+              <td>4 만point</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6 코어</td>
+              <td>12 기가</td>
+              <td>100 기가</td>
+              <td>무제한</td>
+              <td>6 만point</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>8 코어</td>
+              <td>16 기가</td>
+              <td>100 기가</td>
+              <td>무제한</td>
+              <td>8 만point</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>8 코어</td>
+              <td>32 기가</td>
+              <td>200 기가</td>
+              <td>20M 무제한</td>
+              <td>16 만point</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>16 코어</td>
+              <td>64 기가</td>
+              <td>300 기가</td>
+              <td>30M 무제한</td>
+              <td>32 만point</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>16 코어</td>
+              <td>128 기가</td>
+              <td>400 기가</td>
+              <td>50M 무제한</td>
+              <td>64 만point</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </body>
