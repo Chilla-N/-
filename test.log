@@ -1,0 +1,1470 @@
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:15] "[33mGET /] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:19] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:20] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:21] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:one
+ERROR:root:b''
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 175, in point
+    aprice = bprice(1-0.01*dc)
+TypeError: 'str' object is not callable
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:09:22] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:21] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:22] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:24] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 170, in point
+    bprice = int(request.form.get('pay_price'))
+ValueError: invalid literal for int() with base 10: '10000/'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:13:25] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:19] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:20] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:21] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:22] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 172, in point
+    aprice = bprice(1-0.01*dc)
+TypeError: 'int' object is not callable
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:14:23] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:28] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:28] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:28] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:28] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:28] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:29] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:29] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:29] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:29] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:30] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:50000
+ERROR:root:1
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 175, in point
+    aprice = bprice(1-0.01*dc)
+TypeError: 'int' object is not callable
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:15:31] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:54] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:55] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:57] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:30000.0
+ERROR:root:0.0
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 175, in point
+    aprice = bprice(1-0.01*dc)
+TypeError: 'float' object is not callable
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:16:58] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:50] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:51] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:53] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:30000.0
+ERROR:root:0.0
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:17:54] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:06] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:07] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:09] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:<Response [400]>
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:20:10] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:40] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:41] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:42] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:<Response [400]>
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:27:44] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:19] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:20] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:22] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 170, in point
+    bprice = float(request.form.get('pay_price'))
+ValueError: could not convert string to float: '10000/'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:23] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:58] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:30:59] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:00] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:01] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': "approval_url can't be null.", 'code': -2}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:02] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:58] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:31:59] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:00] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': "approval_url can't be null.", 'code': -2}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:32:02] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:06] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:07] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:08] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': 'approve_url(http://127.0.0.1:5000/kakaopay/success) does not match registered website domain.', 'code': -799}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:33:09] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:50] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:51] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:52] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:53] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': 'fail_url(http://127.0.0.1:5000/kakaopay/fail) does not match registered website domain.', 'code': -799}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:37:54] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:37] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:38] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:39] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:39] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:39] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:39] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': 'fail_url(http://127.0.0.1:5000/kakaopay/fail) does not match registered website domain.', 'code': -799}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:38:40] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:51] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:52] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:53] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'msg': 'fail_url(http://127.0.0.1:5000/kakaopay/fail) does not match registered website domain.', 'code': -799}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 195, in point
+    session['tid'] = res.json()['tid']  # °áÁ¦ ½ÂÀÎ½Ã »ç¿ëÇÒ tid¸¦ ¼¼¼Ç¿¡ ÀúÀå
+KeyError: 'tid'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:45:54] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:40] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:42] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:43] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:{'tid': 'T220b8b773a20f842a4c', 'tms_result': False, 'next_redirect_app_url': 'https://online-pay.kakao.com/mockup/v1/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82/aInfo', 'next_redirect_mobile_url': 'https://online-pay.kakao.com/mockup/v1/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82/mInfo', 'next_redirect_pc_url': 'https://online-pay.kakao.com/mockup/v1/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82/info', 'android_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82', 'ios_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82', 'created_at': '2022-03-03T21:46:47'}
+ERROR:app:Exception on /point [POST]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 196, in point
+    return redirect(url_for(res.json()['next_redirect_pc_url']))
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing.py", line 2315, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'https://online-pay.kakao.com/mockup/v1/3d1cc983c778043fef979bede4ab513c5bddbb7f7cca3fa8e86ce91412010f82/info'. Did you mean 'bp.paymethod' instead?
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:46:45] "[35m[1mPOST /point HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:12] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:13] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:14] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "GET /static/js/jquery-3.5.1.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "GET /static/img/payment_icon_yellow_small.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:15] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:{'tid': 'T220b912729930ed07ef', 'tms_result': False, 'next_redirect_app_url': 'https://online-pay.kakao.com/mockup/v1/989d8b8b6803417dfbf3ae52b8cc54369c934070c4234557e0592f046f54f218/aInfo', 'next_redirect_mobile_url': 'https://online-pay.kakao.com/mockup/v1/989d8b8b6803417dfbf3ae52b8cc54369c934070c4234557e0592f046f54f218/mInfo', 'next_redirect_pc_url': 'https://online-pay.kakao.com/mockup/v1/989d8b8b6803417dfbf3ae52b8cc54369c934070c4234557e0592f046f54f218/info', 'android_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/989d8b8b6803417dfbf3ae52b8cc54369c934070c4234557e0592f046f54f218', 'ios_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/989d8b8b6803417dfbf3ae52b8cc54369c934070c4234557e0592f046f54f218', 'created_at': '2022-03-03T21:48:18'}
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:16] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:39] "GET /?pg_token=ca1cbffe515aabccbaf7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:48:40] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:12] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:12] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:13] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\app.py", line 71, in main
+    return render_template("index.html",user_info = user_info, Vm_info = Vm_info)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\123\Desktop\hosting\templates\index.html", line 79, in top-level template code
+    <a class="collapse-item" href="{{url_for('point')}}">°áÁ¦</a>
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing.py", line 2315, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'point'. Did you mean 'bp.point' instead?
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:51:14] "[35m[1mGET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:14] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:14] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:15] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:16] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:17] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:17] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:17] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:17] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:18] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:18] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:18] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:18] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:19] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:{'tid': 'T220ba80729930ed07f0', 'tms_result': False, 'next_redirect_app_url': 'https://online-pay.kakao.com/mockup/v1/e5be8549b1733c77232bfc319b95f3c3e43d0b687859bd621e14776a7c35b47f/aInfo', 'next_redirect_mobile_url': 'https://online-pay.kakao.com/mockup/v1/e5be8549b1733c77232bfc319b95f3c3e43d0b687859bd621e14776a7c35b47f/mInfo', 'next_redirect_pc_url': 'https://online-pay.kakao.com/mockup/v1/e5be8549b1733c77232bfc319b95f3c3e43d0b687859bd621e14776a7c35b47f/info', 'android_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/e5be8549b1733c77232bfc319b95f3c3e43d0b687859bd621e14776a7c35b47f', 'ios_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/e5be8549b1733c77232bfc319b95f3c3e43d0b687859bd621e14776a7c35b47f', 'created_at': '2022-03-03T21:54:24'}
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:22] "[32mPOST /point HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /kakaopay/success [GET]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\pay.py", line 74, in sucess
+    print(res.json()['amount'])
+KeyError: 'amount'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 21:54:45] "[35m[1mGET /kakaopay/success?pg_token=5fd61697696b876f4ea5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:11] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:12] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:12] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:13] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:14] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:14] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:14] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:14] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:15] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:{'tid': 'T220c109729930ed07f5', 'tms_result': False, 'next_redirect_app_url': 'https://online-pay.kakao.com/mockup/v1/d91a229094682f20a9334f61375821578e0ece02fc8f2615fbe313c0be412a66/aInfo', 'next_redirect_mobile_url': 'https://online-pay.kakao.com/mockup/v1/d91a229094682f20a9334f61375821578e0ece02fc8f2615fbe313c0be412a66/mInfo', 'next_redirect_pc_url': 'https://online-pay.kakao.com/mockup/v1/d91a229094682f20a9334f61375821578e0ece02fc8f2615fbe313c0be412a66/info', 'android_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/d91a229094682f20a9334f61375821578e0ece02fc8f2615fbe313c0be412a66', 'ios_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/d91a229094682f20a9334f61375821578e0ece02fc8f2615fbe313c0be412a66', 'created_at': '2022-03-03T22:22:17'}
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:22:17] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:37] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:38] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:38] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:38] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:38] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:40] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:41] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:41] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:41] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:{'tid': 'T220c15e73a20f842a51', 'tms_result': False, 'next_redirect_app_url': 'https://online-pay.kakao.com/mockup/v1/074299f01bbea4260949c3d27d21ad8c4cc5105043a0521c3019045cbe35538b/aInfo', 'next_redirect_mobile_url': 'https://online-pay.kakao.com/mockup/v1/074299f01bbea4260949c3d27d21ad8c4cc5105043a0521c3019045cbe35538b/mInfo', 'next_redirect_pc_url': 'https://online-pay.kakao.com/mockup/v1/074299f01bbea4260949c3d27d21ad8c4cc5105043a0521c3019045cbe35538b/info', 'android_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/074299f01bbea4260949c3d27d21ad8c4cc5105043a0521c3019045cbe35538b', 'ios_app_scheme': 'kakaotalk://kakaopay/pg?url=https://online-pay.kakao.com/pay/mockup/074299f01bbea4260949c3d27d21ad8c4cc5105043a0521c3019045cbe35538b', 'created_at': '2022-03-03T22:23:42'}
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:23:42] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:34] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:36] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:38] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:39] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:39] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:39] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:30:40] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:12] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:13] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:14] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:15] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:15] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:16] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:18] "[32mPOST /point HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /kakaopay/success [GET]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\pay.py", line 76, in sucess
+    print(res.json()['amount'])
+KeyError: 'amount'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:33:38] "[35m[1mGET /kakaopay/success?pg_token=930c65d8a7ebd7246a21 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:38] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:39] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+ERROR:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:37:40] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:06] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:07] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:08] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:09] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:09] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:09] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:09] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:09] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[32mGET /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:23] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:24] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:25] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:25] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:25] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:25] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:25] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:26] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:27] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:27] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:27] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+ERROR:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:38:28] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:41:17] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:32] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:33] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:34] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:34] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:35] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:37] "[32mPOST /point HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /kakaopay/success [GET]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\pay.py", line 73, in sucess
+    print(res.json()['amount'])
+KeyError: 'amount'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:46:51] "[35m[1mGET /kakaopay/success?pg_token=b4f5b71e305c2987cc4a HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:30] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:30] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:32] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:32] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:33] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:35] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:35] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:36] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:49:44] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:34] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:35] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:35] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:35] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:35] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:40] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:41] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:46] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:47] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:47] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:47] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:47] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:48] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:48] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:49] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:50:51] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:51:11] "[32mPOST /point HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /kakaopay/success [GET]
+Traceback (most recent call last):
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\123\Desktop\hosting\pay.py", line 77, in sucess
+    print(res.json()['amount'])
+KeyError: 'amount'
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:51:25] "[35m[1mGET /kakaopay/success?pg_token=5ac474a6a9fc26c70c7d HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:26] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:26] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:27] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:28] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:29] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:29] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:29] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:29] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:30] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:30] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:30] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:30] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:30] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:31] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:32] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:43] "GET /kakaopay/success?pg_token=58d6d7dd3aa75a1fe54c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:43] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:44] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:44] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:44] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:44] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 22:52:44] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:41] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:42] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "GET /?msg=123´Ô+·Î±×ÀÎ+µÇ¾ú½À´Ï´Ù HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:44] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:45] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:45] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:45] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:45] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "GET /point HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/img/payment_icon_yellow_small.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:50] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:51] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:51] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:51] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:09:53] "[32mPOST /point HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "GET /kakaopay/success?pg_token=0738a66ae3686e4c2916 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:11] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/css/sb-admin-2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/img/undraw_profile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/js/demo/chart-area-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2022 23:10:20] "[36mGET /static/js/demo/chart-pie-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

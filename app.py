@@ -1,109 +1,207 @@
-import os #디렉토리 절대 경로
-from flask import Flask, request
-from flask import render_template #template폴더 안에 파일을 쓰겠다
-from flask import redirect #리다이렉트
-from flask_sqlalchemy import SQLAlchemy
-from Models import db
-from Models import User
-from Models import Vm
-from flask import session #세션
-from flask_wtf.csrf import CSRFProtect #csrf
-from form import RegisterForm, LoginForm, VmForm
-import sqlite3
-from datetime import datetime,timedelta
+import numbers
+from flask import Flask, request, render_template, session, redirect, flash, jsonify, url_for
+import pymongo
+from bson import ObjectId
+from datetime import datetime
 from dateutil.relativedelta import *
+import os
+import hashlib
+import subprocess,sys
+from time import sleep
+from pay import bp
+import requests
+from datetime import timedelta
+from apscheduler.schedulers.background import BackgroundScheduler
+import logging
+#logging.basicConfig(filename='test.log', level=logging.ERROR)
+#logging.error(result)
+
+def sensor():
+    print("서버 점검 중입니다")
+    start_time = datetime.today() 
+    end_time = datetime.today() + relativedelta(days= +1)
+    find_query = { 'end_time': { '$gte' : start_time, '$lt' : end_time }}
+    cols = Vm.find(find_query)
+    if cols is not None:
+        for col in cols:
+            if col["running"] == True:
+                host_id = col["host_id"]
+                Vm.update_one({"host_id":host_id},{"$set":{"trans":True}})
+                subprocess.call([".\stop.bat"])
+                sleep(3)
+                Vm.update_one({"host_id":host_id},{"$set":{"trans":False}})
+                Vm.update_one({"host_id":host_id},{"$set":{"running":False}})
+                print("VM:"+host_id+"가 기간 만료로 종료되었습니다.")
+    print("점검이 종료되었습니다.")
+
+sched = BackgroundScheduler(daemon=True)
+sched.add_job(sensor,'cron', hour='00', minute='00')
+sched.start()
+
+app = Flask(__name__)
+app.register_blueprint(bp)
+
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=15)
+
+client = pymongo.MongoClient("localhost",27017)
+db = client.get_database("test")
+admins = client.get_database("admin")
+admin = admins.get_collection("admin")
+user = db.get_collection("user")
+Vm = db.get_collection("Vm")
 
 SECRET_KEY = os.urandom(32)
-app = Flask(__name__)
+
 app.config['SECRET_KEY'] = SECRET_KEY
+def number_changer(num):
+    if num == "1":
+        return "one"
+    elif num == "2":
+        return "two"
+    elif num == "3":
+        return "three"
+    elif num == "4":
+        return "four"
+    elif num == "5":
+        return "five"
+    elif num == "6":
+        return "six"
+    elif num == "7":
+        return "seven"
+    elif num == "8":
+        return "eight"
+    elif num == 9:
+        return "nine"
+
+def boolean_changer(bool):
+    if bool == "동의":
+        return True
+    elif bool == "거부":
+        return False
+    else:
+        flash("자동연장여부를 선택해주세요.")
+        return redirect(url_for("creat"))
 
 @app.route('/')
-def mainpage():
-    userid = session.get('userid',None)
-    if userid == None:
-        return render_template('main.html', userid=userid)
-    with sqlite3.connect("db.sqlite") as con:
-        cur = con.cursor()
-        cur.execute(f"SELECT userid,email,point FROM user_table WHERE userid = '{userid}'")
-        info = cur
-        con.commit()
-    return render_template('index.html',userid=userid,info=info)
-    
+def main():
+    user_id = session.get('login',None)
+    if user_id == None:
+        return redirect(url_for("login"))
+    elif  user_id == "admin":
+        return redirect(url_for("Admin"))
+    else:
+        user_info = user.find_one({"user_id":user_id})
+        Vm_info = Vm.find_one({"user_id":user_id})
+        service_num = Vm_info["service_num"]
+        ad_col = admin.find_one({"lable":"price"})
+        sche_point = ad_col[service_num]
+        return render_template("index.html",user_info = user_info, Vm_info = Vm_info, sche_point = sche_point)
 
-@app.route('/register/', methods=['GET', 'POST']) #GET(정보보기), POST(정보수정) 메서드 허용
+
+@app.route('/register/', methods=['GET','POST'])
 def register():
-    form = RegisterForm()
+    if request.method == 'GET':
+        return render_template('register.html')
+    else:
+        user_id = request.form.get('user_id')
+        user_pw = request.form.get('user_pw')
+        user_pw2 = request.form.get('user_pw2')
+        email = request.form.get('email')
+        if user_pw != user_pw2:
+            flash("비밀번호가 일치하지 않습니다")
+            return redirect(url_for("register"))
+        else:
+            pw_hash = hashlib.sha256(user_pw.encode('utf-8')).hexdigest()
+            user.insert_one({'user_id':user_id, 'user_pw': pw_hash, 'email': email, "point": 0})
+            flash("정상적으로 가입되었습니다.")
+            return redirect(url_for("login"))
 
-    if form.validate_on_submit(): #유효성 검사. 내용 채우지 않은 항목이 있는지까지 체크
-        userid = form.data.get('userid')
-        email = form.data.get('email')
-        password = form.data.get('password')
-        usertable = User(userid,email,password)
-        db.session.add(usertable) #DB저장
-        db.session.commit() #변동사항 반영
-        return redirect('/login')
-    return render_template('register.html', form=form) #form이 어떤 form인지 명시한다
-
-@app.route('/login', methods=['GET','POST'])  
+@app.route('/login', methods=['GET','POST'])
 def login():
-    form = LoginForm() #로그인폼 
-    if form.validate_on_submit(): #유효성 검사
-        print('{}가 로그인 했습니다'.format(form.data.get('userid')))
-        session['userid']=form.data.get('userid') #form에서 가져온 userid를 세션에 저장
-        return redirect('/') #성공하면 main.html로
-    return render_template('login.html', form=form)
+    if request.method == 'POST':
+        user_id = request.form['user_id']
+        user_pw = request.form['user_pw']
+        result = user.find_one({'user_id' : user_id})
+        pw_hash = hashlib.sha256(user_pw.encode('utf-8')).hexdigest()
+        if result == None:
+            flash("올바른 아이디가 아닙니다..")
+            return redirect(url_for("login"))
+        elif result["user_pw"] != pw_hash:
+            flash("올바른 패스워드가 아닙니다.")
+            return redirect(url_for("login"))
+        else:
+            session['login'] = user_id
+            return redirect(url_for("main", msg=user_id+"님 로그인 되었습니다"))
+    else:
+        return render_template("login.html")
 
 @app.route('/logout', methods=['GET'])
 def logout():
-    session.pop('userid', None)
-    return redirect('/')
-
-@app.route('/point', methods=['GET','POST'])  
-def point():
-    userid = session.get('userid',None)
-    if userid == None:
-        return render_template('login.html', userid=userid)
-    with sqlite3.connect("db.sqlite") as con:
-        cur = con.cursor()
-        cur.execute(f"SELECT userid,email,point FROM user_table WHERE userid = '{userid}'")
-        info = cur
-        con.commit()
-    return render_template('point.html',userid=userid, info=info)
+    session.pop('login', None)
+    return redirect(url_for("main"))
 
 @app.route('/create', methods=['GET','POST'])  
 def create():
-    userid = session.get('userid',None)
-    if userid == None:
-        return render_template('login.html', userid=userid)
-    form = VmForm()
-    if form.validate_on_submit():
-        userid = session.get('userid',None)
-        service_num = request.form['spec']
-        host_id = request.form['name']
-        host_pw = request.form['vm_password']
-        auto = request.form['auto_extend']
-        end_time = datetime.today().date() + relativedelta(years= +1)
-        #hyper-v실행(나중에 아이피받아오기)
-        new_vm = Vm(userid,host_id,host_pw,end_time,service_num,auto)
-        db.session.add(new_vm) #DB저장
-        db.session.commit() #변동사항 반영
+    user_id = session.get('login',None)
+    if user_id == None:
+        return redirect(url_for("login"))
+    if request.method == 'GET':
+        return render_template('create.html',user_info = user.find_one({"user_id":user_id}), price = admin.find_one({"lable":"price"}))
     else:
-        return render_template('create.html',userid=userid)
+        result = user.find_one( {'user_id' : user_id})
+        service_num = request.form['service_num']
+        nums = number_changer(service_num)
+        price = admin.find_one({"lable":"price"})
+        auto = request.form['auto']
+        autos = boolean_changer(auto)
+        host_id = request.form['host_id']
+        host_pw = request.form['host_pw']
+        host_pw2 = request.form['host_pw2']
+        end_time = datetime.today() + relativedelta(months= +1)
+        start_time = datetime.today()
+        pw_hash = hashlib.sha256(host_pw.encode('utf-8')).hexdigest()
+        if host_pw != host_pw2:
+            flash("호스트 비밀번호가 다릅니다.")
+            return render_template('create.html',user_info = user.find_one({"user_id":user_id}), price = admin.find_one({"lable":"price"}))
+        if result["point"] >= price[nums] :
+            Vm.insert_one({
+                'user_id':user_id,
+                'host_pw': pw_hash,
+                'host_id': host_id,
+                'auto' : autos,
+                'service_num' : nums,
+                'start_time' : start_time,
+                'end_time': end_time,
+                'trans':True,
+                'running':True})
+            subprocess.call([".\create.bat"])
+            sleep(3)
+            after_point = result["point"] - price[nums]
+            user.update_one({"user_id":user_id},{"$set":{"point":after_point}})
+            Vm.update_one({"trans":True},{"$set":{"trans":False}})
+            flash("서버가 성공적으로 생성되었습니다.")
+            return redirect(url_for("main"))
+        else:
+            flash("포인트가 부족합니다.")
+            return redirect(url_for('create'))
+
+
+@app.route('/admin', methods=['GET','POST'])
+def Admin():
+    user_id = session.get('login',None)
+    if user_id != 'admin':
+        return redirect(url_for("login"))
+    if request.method == 'GET':
+        #logging.error(admin.find_one({"lable":"price"}))
+        return render_template("admin.html",user_info = user.find_one({"user_id":user_id}), price = admin.find_one({"lable":"price"}))
+    else:
+        service_num = request.form['service_num']
+        nums = number_changer(service_num)
+        prices = int(request.form['price'])
+        admin.update_one({"lable":"price"},{"$set":{nums:prices}})
+        return redirect(url_for("Admin"))
 
 if __name__ == "__main__":
-    #데이터베이스---------
-    basedir = os.path.abspath(os.path.dirname(__file__)) #현재 파일이 있는 디렉토리 절대 경로
-    dbfile = os.path.join(basedir, 'db.sqlite') #데이터베이스 파일을 만든다
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + dbfile
-    app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True #사용자에게 정보 전달완료하면 teadown. 그 때마다 커밋=DB반영
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False #추가 메모리를 사용하므로 꺼둔다
-    app.config['SECRET_KEY']='asdfasdfasdfqwerty' #해시값은 임의로 적음
-
-    csrf = CSRFProtect()
-    csrf.init_app(app)
-
-    db.init_app(app) #app설정값 초기화
-    db.app = app #Models.py에서 db를 가져와서 db.app에 app을 명시적으로 넣는다
-    db.create_all() #DB생성
     app.run(host="127.0.0.1", port=5000, debug=True)
+
