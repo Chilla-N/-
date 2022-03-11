@@ -25,13 +25,33 @@ def sensor():
     if cols is not None:
         for col in cols:
             if col["running"] == True:
-                host_id = col["host_id"]
-                Vm.update_one({"host_id":host_id},{"$set":{"trans":True}})
-                subprocess.call([".\stop.bat"])
-                sleep(3)
-                Vm.update_one({"host_id":host_id},{"$set":{"trans":False}})
-                Vm.update_one({"host_id":host_id},{"$set":{"running":False}})
-                print("VM:"+host_id+"가 기간 만료로 종료되었습니다.")
+                if col["auto"] == True:
+                    user_id = col["user_id"]
+                    result = user.find_one( {'user_id' : user_id})
+                    point = result["point"]
+                    prices = admin.find_one({"lable":"price"})
+                    price = prices[col["service_num"]]
+                    if point >= price:
+                        after_point = point - price
+                        user.update_one({"user_id":user_id},{"$set":{"point":after_point}})
+                        after_end_time=col["endtime"] + relativedelta(months= +1)
+                        Vm.update_one({"user_id":user_id},{"$set":{"end_time":after_end_time}})
+                    else:
+                        host_id = col["host_id"]
+                        Vm.update_one({"host_id":host_id},{"$set":{"trans":True}})
+                        subprocess.call([".\stop.bat"])
+                        sleep(3)
+                        Vm.update_one({"host_id":host_id},{"$set":{"trans":False}})
+                        Vm.update_one({"host_id":host_id},{"$set":{"running":False}})
+                        print("VM:"+host_id+"가 기간 만료로 종료되었습니다.")
+                else:
+                    host_id = col["host_id"]
+                    Vm.update_one({"host_id":host_id},{"$set":{"trans":True}})
+                    subprocess.call([".\stop.bat"])
+                    sleep(3)
+                    Vm.update_one({"host_id":host_id},{"$set":{"trans":False}})
+                    Vm.update_one({"host_id":host_id},{"$set":{"running":False}})
+                    print("VM:"+host_id+"가 기간 만료로 종료되었습니다.")
     print("점검이 종료되었습니다.")
 
 sched = BackgroundScheduler(daemon=True)
@@ -40,7 +60,6 @@ sched.start()
 
 app = Flask(__name__)
 app.register_blueprint(bp)
-
 app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=15)
 
 client = pymongo.MongoClient("localhost",27017)
